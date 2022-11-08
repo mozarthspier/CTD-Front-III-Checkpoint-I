@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.checkpoint-app {
+
+    background-color: #252525;
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    color: white;
+    font-family: Poppins, sans-serif;
+
+    &>h1 {
+
+        margin-bottom: 32px;
+
+    }
+
+    .form-error {
+
+        border: 5px solid #b71c1c;
+        background-color: #c62828;
+        opacity: 35%;
+
+    }
+
+    form {
+
+        margin-bottom: 30px;
+
+        input {
+
+            color: black;
+            opacity: 100%;
+
+        }
+
+        div {
+
+            padding: 5px;
+
+        }
+
+    }
+
+    &>button {
+
+        color: black;
+        padding: 4px;
+        margin-right: 12px;
+
+    }
+
+    .tittle-wrapper {
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 42px;
+
+    }
+
+    .products {
+
+        display: flex;
+        // justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 42px;
+
+    }
+
+}
