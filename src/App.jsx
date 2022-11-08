@@ -89,11 +89,12 @@ function App() {
 				}
 
 			</div>
+			
+			<div className="tittle-wrapper">
+				<h1>Cores Favoritas:</h1>
+			</div>
 
 			<section className='products'>
-				<div className="tittle-wrapper">
-					<h1>Cores Favoritas:</h1>
-				</div>
                 {
                     listaCores.map(
                         cor => {
