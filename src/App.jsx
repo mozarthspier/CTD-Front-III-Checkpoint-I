@@ -74,7 +74,7 @@ function App() {
 
 				<div>
 
-					<label htmlFor="hexaCor">Preço do produto: </label>
+					<label htmlFor="hexaCor">Hexadecimal da cor: </label>
 					<input id="hexaCor" type="text" value={hexaCor} onChange={event => setHexaCor(event.target.value)}/>
 
 				</div>
